@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*overflow-y: hidden;*/
+}
+
+body{
+	font-family: sans-serif, arial;
+}
+
+header{
+	background-color: white;
+	border-bottom: orangered 10px solid;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+h1{
+	text-align: center;
+	color: black;
+	font-size: 100px;
+	padding: 20px 0;
+	text-transform: uppercase;
+}
+
+#best{
+	color: deeppink;
+}
+
+h2{
+	width: 80%;
+	margin: auto;
+	font-size: 70px;
+	text-transform: uppercase;
+}
+
+#box1 h2, #box3 h2, #box5 h2{
+	text-align: left;
+}
+
+#box2 h2, #box4 h2, #box6 h2{
+	text-align: right;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6{
+	overflow: hidden;
+}
+
+#box1{
+	color: white;
+	height: 100vh;
+	background-color: midnightblue;
+}
+
+#box1 h2{
+	position: relative;
+}
+
+#awesome{
+	color: aqua;
+}
+
+#box2{
+	color: white;
+	height: 100vh;
+	background-color: forestgreen;
+}
+
+#box2 h2{
+	position: relative;
+}
+
+#amazing{
+	color: greenyellow;
+}
+
+#box3{
+	color: white;
+	height: 100vh;
+	background-color: peru;
+}
+
+#box3 h2{
+	position: relative;
+}
+
+#fabulous{
+	color: gold
+}
+
+#box4{
+	color: white;
+	height: 100vh;
+	background-color: maroon;
+}
+
+#box4 h2{
+	position: relative;
+}
+
+#groot{
+	color: lightcoral;
+}
+
+#box5{
+	color: white;
+	height: 100vh;
+	background-color: rebeccapurple;
+}
+
+#box5 h2{
+	position: relative;
+}
+
+#perfect{
+	color: violet;
+}
+
+#box6{
+	color: white;
+	height: 100vh;
+	background-color: black;
+}
+
+#box6 h2{
+	position: relative;
+}
+
+#the-best{
+	color: deeppink;
+	font-family: cursive;
+	font-size: 100px;
+}
+
+.img{
+	height: 100vh;
+	width: 100vw;
+	margin: auto;
+}
